@@ -1,7 +1,12 @@
 {
 	"private": true,
-	"scripts": {},
-	"dependencies": {},
+	"scripts": {
+		"test": "jest",
+		"test:watch": "jest --watch"
+	},
+	"dependencies": {
+		"cors": "^2.8.5"
+	},
 	"devDependencies": {
 		"jest": "^26.6.2"
 	}
